@@ -1,0 +1,38 @@
+/*Limpar formatações padrão*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: rgb(241, 241, 241);
+}
+
+#navegacao{
+    background: #fff;    
+    height: 40px;
+}
+
+#area{
+    width: 720px;
+    margin: 0 auto;
+    
+}
+
+.verde{
+    color: #b9c945;
+}
+
+#menu{
+    float: right;
+    
+    padding: 10px;
+}
+
+#logo{
+    float: left;
+}
+
+/**********************Formataçao do menu*************************/
