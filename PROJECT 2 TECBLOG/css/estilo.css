@@ -10,6 +10,8 @@ body{
     background: rgb(241, 241, 241);
 }
 
+
+/****************************ID's*****************************/
 #navegacao{
     background: #fff;    
     height: 40px;
@@ -19,10 +21,6 @@ body{
     width: 720px;
     margin: 0 auto;
     
-}
-
-.verde{
-    color: #b9c945;
 }
 
 #menu{
@@ -35,4 +33,29 @@ body{
     float: left;
 }
 
-/**********************Formataçao do menu*************************/
+/****************************Classes*****************************/
+.verde{
+    color: #b9c945;
+}
+
+/**********************Formatação do menu*************************/
+
+a{
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+/*Links não visitados*/
+a:link {
+    color: #838388;
+}
+/*Links visitados*/
+a:visited {
+    color: #838388;
+}
+/*Links hover*/
+a:hover{
+    color: #fff;
+    background: #b9c941;
+}
+/*Links active*/
